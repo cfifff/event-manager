@@ -1,0 +1,14 @@
+INSERT INTO `events` (`id`,`title`, `description`, `start_time`,  `capacity`, `email`, `phone_number`, `url`, `type`,`venue`, `created_at`, `updated_at`, `deleted_at`,`images` ) VALUES
+(1, 'Into the night', 'Deleniti aut sunt iusto et necessitatibus. Ut minima molestiae est et porro. Quis sint sint vero unde voluptates aperiam aspernatur. Possimus voluptas cum iusto libero hic sed voluptatibus.', '2020-08-23 04:39:03','150','cabaret@event.com','+43 1 795 57 0','www.belvedere.at','festival & event', 'Rennweg 6
+1030 Wien', '2020-02-11 16:39:15', '2029-03-11 16:39:15', NULL,`comedian.jpg`),
+(2, 'Leopoldauer Alm
+', 'Deleniti aut sunt iusto et necessitatibus. Ut minima molestiae est et porro. Quis sint sint vero unde voluptates aperiam aspernatur. Possimus voluptas cum iusto libero hic sed voluptatibus.', '09:00:00 11:00:00','50','restaurant@event.com','+43 1 2598380','www.leopoldaueralm.at','restaurant', 'Wagramer Straße 205 U1 Station Aderklaaer Strasse, Wien 1210 Österreich', '2020-02-11 16:39:15', '2029-03-11 16:39:15', NULL ,`res.jpg`),
+(3, 'Meliá Vienna
+', 'Deleniti aut sunt iusto et necessitatibus. Ut minima molestiae est et porro. Quis sint sint vero unde voluptates aperiam aspernatur. Possimus voluptas cum iusto libero hic sed voluptatibus.', '2020-08-23 04:39:03','150','hotel@event.com','+43 1-385-0142 ','www.melia.com','hotel', 'Donau City Strasse 7, Wien 1220 Österreich', '2020-02-11 16:39:15', '2029-03-11 16:39:15', NULL, `melia-vienna.jpg`),
+(4,'HundertwasserVillage', 'Deleniti aut sunt iusto et necessitatibus. Ut minima molestiae est et porro. Quis sint sint vero unde voluptates aperiam aspernatur. Possimus voluptas cum iusto libero hic sed voluptatibus.', '2020-08-23 04:39:03','150','shopping@event.com','
++43 1 7104116','www.hundertwasser-village.com','shopping', 'Kegelgasse 37-39, Wien 1030 Österreich', '2020-02-11 16:39:15', '2029-03-11 16:39:15', NULL, `hundertwasser-village.jpg`),
+(5,'The fringe', 'Deleniti aut sunt iusto et necessitatibus. Ut minima molestiae est et porro. Quis sint sint vero unde voluptates aperiam aspernatur. Possimus voluptas cum iusto libero hic sed voluptatibus.', '2020-08-23 04:39:03','150','service@event.com','
++43 1 7104116','https://www.thefringe.at/','shopping', 'Lerchenfelderstraße 25, 1070 Wien, 7. Bezirk', '2020-02-11 16:39:15', '2029-03-11 16:39:15', NULL, `coiffure.jpg`),
+(6,'Sie werden CHOCOLATIER für einen Tag', 'Deleniti aut sunt iusto et necessitatibus. Ut minima molestiae est et porro. Quis sint sint vero unde voluptates aperiam aspernatur. Possimus voluptas cum iusto libero hic sed voluptatibus.', '2020-08-23 04:39:03','20','restaurant@event.com','
++43 660 8576848 ','www.chocolate-museum.wien','restaurant', 'Riesenradplatz 6, 1020 Wien, Austria', '2020-02-11 16:39:15', '2029-03-11 16:39:15', NULL, `choco.jpg`);
+

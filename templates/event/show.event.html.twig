@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<section class="content events">
+        <div class="container">
+       
+            <div class="row">
+            
+                
+                        <div class="col-lg-8">
+                            <div class="panel panel-default">
+                                <div>
+                                    <img class="img-responsive img-thumbnail" src="{{asset('/asset/images/' ~ events.images )}}">
+                                </div>
+                                <div class="panel-body">
+                                    <h2>{{ events.title }}</h2>
+                            
+                                    <div>{{ events.description }}</div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="event-meta">
+                                <div class="datetime">Start time: <span class="label label-default">date()</span></div>
+                                <div class="venue">Venue: <span class="label label-info">{{ events.venue }}</span></div>
+                            </div>
+                            </div>
+
+                           
+                           
+             </div>
+                     
+                       
+        </div>
+
+            
+    </section>
+
+{% endblock %}

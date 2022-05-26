@@ -1,0 +1,15 @@
+{% extends 'admin.header.html.twig' %}
+{% block body %}
+       
+       <hr>
+       <h2 class="page-header">{{events.title}}</h2>
+       <ul class="list-group">
+               <li class="list-group-item">Title: {{events.type}}</li>
+               <li class="list-group-item">Venue: {{events.venue}}</li>
+               <li class="list-group-item">Start: <strong> {{events.startTime|date('F j, Y, g:i a')}} </strong> </li>
+       </ul>
+       <p>
+               {{events.description}}
+       </p><br>
+       <a class="btn btn-default" href="/home">Back to Events</a>
+{% endblock %}

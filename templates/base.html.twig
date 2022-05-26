@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+   <title>{% block title %}Welcome!{% endblock %}</title>
+   {% block stylesheets %}
+
+   {% endblock %}
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+   
+    </head>
+    <body>
+    	<header role="banner" class="header header-main" style="border-bottom: 2px solid grey;">
+        <nav class="navbar navbar-expand-lg " style="background-color: #3e454c;font: 14px roboto,sans-serif;height:35px;"> 
+        	
+ <a class="navbar" href="/home" style="color: #ffffff;">It Is Vienna City Guide and Blog <span class="sr-only">(current)</span></a>
+ <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>-->
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item ">
+       <a class="nav-link" href="/" style="color: #ffffff;">About us </a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="/create" style="color: #ffffff;">Contact us</a>
+     </li>
+   </ul>
+ 
+ </div>
+</nav>
+<div class="row">
+	<div class="col-sm-4" >
+	<a href="" class="navbard-brand">It Is Vienna<br>
+		<p style="color: orange;">eat<span style="color: red;">play</span><span>stay</span><span>discover</span></p></a>
+		</div>
+	<div class="col-sm-8">
+		<img class="img-fluid" src="https://images.unsplash.com/photo-1503270731275-f8e94bf86def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style="width:700px; height:61px;" >
+	</div>
+	
+</div>
+<div class="navbar navbar-expand-sm" style="font: 21px 'Roboto', 'sans-serif';">
+	<ul class="navbar-nav">
+		<li class="nav-item">
+      <a class="nav-link" href="#" style="color: #3e454c;">Home</a>
+    	</li>
+
+		<li class="nav-item dropdown">
+      		<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #3e454c;">
+        Hotels
+      		</a>
+      	<div class="dropdown-menu">
+        		<a class="dropdown-item" href="#">Link 1</a>
+        		<a class="dropdown-item" href="#">Link 2</a>
+        		<a class="dropdown-item" href="#">Link 3</a>
+      	</div>
+    	</li>
+
+    	<li class="nav-item dropdown">
+      		<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #3e454c;">
+        		Attractions
+      		</a>
+      		<div class="dropdown-menu">
+        		<a class="dropdown-item" href="#">Link 1</a>
+        		<a class="dropdown-item" href="#">Link 2</a>
+        		<a class="dropdown-item" href="#">Link 3</a>
+      		</div>
+    	</li>
+
+    	<li class="nav-item dropdown">
+      			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #3e454c;">
+        		Restaurants
+      			</a>
+      		<div class="dropdown-menu">
+        		<a class="dropdown-item" href="#">Link 1</a>
+        		<a class="dropdown-item" href="#">Link 2</a>
+        		<a class="dropdown-item" href="#">Link 3</a>
+      		</div>
+    	</li>
+
+    	<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #3e454c;">
+        Shopping
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #3e454c;">
+        Services
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #3e454c;">
+        Night life
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+
+<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #3e454c;">
+        Discover
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: #3e454c;">
+        Blog
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+
+
+	</ul>
+</div>
+
+</header>
+
+
+
+   {% block body %}{% endblock %}
+   {% block javascripts %}{% endblock %}
+</body>
+</html>
